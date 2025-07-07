@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dead Skull</title>
+    <link rel="stylesheet" href="./shoe.css">
+</head>
+    <body>
+        <header class="navigation-grid">
+            <div class="navigation-grid-1">
+                <img src="./aming-logos-png-gamer-logo-png-hd-11562862512hoxwywe94a-removebg-preview.png" aria-placeholder="Dead Skull">
+            </div>
+            <div class="navigation-grid-2">
+                <div class="item ">
+                    <a href="#">New & Featured</a>
+                </div>
+                <div class="item item2">
+                    <a href="#">Men</a>
+                </div>
+                <div class="item ">
+                    <a href="#">Women</a>
+                </div>
+                <div class="item ">
+                    <a href="#">Kids</a>
+                </div>
+                <div class="item ">
+                    <a href="#">Sale</a>
+                </div>
+                <div class="item ">
+                    <a href="#">SNKRS</a>
+                </div>
+            </div>
+            <div id="cartCounter">🛒 0</div>
+            <div class="navigation-grid-3">
+                <input type="search" name="" id="productSearch" placeholder="Search">
+            </div>
+        </header>
+        <div class="cards">
+            <div class="firstlayout">
+            <a href="https://www.nike.com/in/w/dunk-shoes-90aohzy7ok">
+                <div class="card card1">
+                    <img src="./Screenshot 2024-12-26 181800.png" alt="">
+                    <div class="card-content">
+                        <h1>DUNKS</h1>
+                        <h2>PRICE</h2>
+                        <h3>$899</h3>
+                        <button type="submit">Buy</button>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.nike.com/in/w/jordan-1-shoes-aj85gzy7ok">
+                <div class="card card2">
+                    <img src="./Screenshot 2024-12-26 181812.png">
+                    <div class="card-content">
+                        <h1>DUNKS</h1>
+                        <h2>PRICE</h2>
+                        <h3>$899</h3>
+                        <button type="submit">Buy</button>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.nike.com/in/w/killshot-shoes-3x0kvzy7ok">
+                <div class="card card3">
+                    <img src="./Screenshot 2024-12-26 181846.png">
+                    <div class="card-content">
+                        <h1>DUNKS</h1>
+                        <h2>PRICE</h2>
+                        <h3>$899</h3>
+                        <button type="submit">Buy</button>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.nike.com/in/w/air-force-1-shoes-5sj3yzy7ok">
+                <div class="card card4">
+                    <img src="./Screenshot 2024-12-26 182033.png">
+                    <div class="card-content">
+                        <h1>DUNKS</h1>
+                        <h2>PRICE</h2>
+                        <h3>$899</h3>
+                        <button type="submit">Buy</button>
+                    </div>
+                </div>
+            </a>
+        </div>
+        </div>
+            <a href="https://www.nike.com/in/?msockid=06bd2614a736600803af3542a33666c4" class="nike-pic">
+                <img src="./nikee.png" >
+            </a>
+        <div class="cards">
+            <div class="second-layout">
+                <a href="https://www.nike.com/in/w/pegasus-shoes-8nexhzy7ok">
+                    <div class="card card1">
+                        <img src="./pe.png">
+                        <div class="card-content">
+                        <h1>DUNKS</h1>
+                        <h2>PRICE</h2>
+                        <h3>$899</h3>
+                        <button type="submit">Buy</button>
+                    </div>
+                    </div>
+                </a>
+                <a href="https://www.nike.com/in/w/zoom-vomero-lifestyle-shoes-13jrmz7gee1zy7ok">
+                    <div class="card card2">
+                        <img src="./Peg.png">
+                        <div class="card-content">
+                        <h1>DUNKS</h1>
+                        <h2>PRICE</h2>
+                        <h3>$899</h3>
+                        <button type="submit">Buy</button>
+                    </div>
+                    </div>
+                </a>
+                <a href="https://www.nike.com/in/w/nike-vaporfly-shoes-5mvs0zy7ok">
+                <div class="card card3">
+                    <img src="./Pegasus1.png">
+                    <div class="card-content">
+                        <h1>DUNKS</h1>
+                        <h2>PRICE</h2>
+                        <h3>$899</h3>
+                        <button type="submit">Buy</button>
+                    </div>
+                </div>
+                </a>
+                <a href="https://www.nike.com/in/w/nike-v2k-shoes-3picezy7ok">
+                    <div class="card card4">
+                        <img src="./Pegusus1.png">
+                        <div class="card-content">
+                        <h1>DUNKS</h1>
+                        <h2>PRICE</h2>
+                        <h3>$899</h3>
+                        <button type="submit">Buy</button>
+                    </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+            <a href="https://www.nike.com/in/?msockid=06bd2614a736600803af3542a33666c4">
+                <div class="nike-pic-2">
+                    <img src="./jo.png">
+                    </div>
+                </div>
+            </a>
+            <div class="chatbox" id="chatbox">
+                <div class="chat-header">🧠 DeadSkull Assistant</div>
+                <div class="chat-messages" id="chatMessages"></div>
+                <input type="text" id="chatInput" placeholder="Ask me about shoes..." />
+            </div>
+
+        <footer>
+            <a href="http://127.0.0.1:5500/Shoe%20website/shoe.html"> &copy; Deadskull </a>
+        </footer>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const buttons = document.querySelectorAll(".card-content button");
+
+    buttons.forEach((btn) => {
+        btn.addEventListener("click", function () {
+            const product = btn.closest(".card-content").querySelector("h1").textContent;
+            alert(`${product} has been added to your cart!`);
+        });
+    });
+
+    const searchInput = document.querySelector('input[type="search"]');
+    searchInput.addEventListener("input", function () {
+        const keyword = searchInput.value.toLowerCase();
+        const cards = document.querySelectorAll(".card");
+
+        cards.forEach((card) => {
+            const productName = card.querySelector("h1").textContent.toLowerCase();
+            card.style.display = productName.includes(keyword) ? "block" : "none";
+        });
+    });
+});
+function showToast(message) {
+    const toast = document.createElement("div");
+    toast.textContent = message;
+    toast.className = "toast";
+    document.body.appendChild(toast);
+    setTimeout(() => toast.remove(), 3000);
+}
+
+document.querySelectorAll(".card-content button").forEach(button => {
+    button.addEventListener("click", () => {
+        const product = button.closest(".card-content").querySelector("h1").textContent;
+        showToast(`${product} added to cart!`);
+    });
+});
+let count = 0;
+const counter = document.getElementById("cartCounter");
+
+document.querySelectorAll(".card-content button").forEach(button => {
+    button.addEventListener("click", () => {
+        count++;
+        counter.textContent = `🛒 ${count}`;
+    });
+});
+let input = "";
+document.addEventListener("keydown", e => {
+    input += e.key.toLowerCase();
+    if (input.includes("nike")) {
+        alert("👟 Just Unlocked a Hidden Feature!");
+        input = "";
+    }
+});
+  const searchInput = document.getElementById("productSearch");
+  const cards = document.querySelectorAll(".card");
+
+  searchInput.addEventListener("input", () => {
+    const query = searchInput.value.toLowerCase().trim();
+
+    cards.forEach(card => {
+      const title = card.querySelector("h1").textContent.toLowerCase();
+      
+      if (title.includes(query)) {
+        card.style.display = "flex"; // Show match
+        card.classList.add("highlight"); // Optional glow
+      } else {
+        card.style.display = "none"; // Hide non-match
+        card.classList.remove("highlight");
+      }
+
+      // If search is cleared, remove glow
+      if (query === "") {
+        card.classList.remove("highlight");
+        card.style.display = "flex";
+      }
+    });
+  });
+  const chatInput = document.getElementById("chatInput");
+chatInput.addEventListener("keypress", function (e) {
+  if (e.key === "Enter") {
+    const reply = document.createElement("p");
+    reply.textContent = `🧠 I'm still learning about "${chatInput.value}"`;
+    document.getElementById("chatbot").appendChild(reply);
+    chatInput.value = "";
+  }
+});
+</script>
+<script src="chatbot.js" ></script>
+  </body>
+</html>
